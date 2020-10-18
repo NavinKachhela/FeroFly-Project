@@ -10,22 +10,22 @@ const Header = () => (
         <Link className='option' to='/'>
             HOME
         </Link>
-        <Link className='option' to='/'>
+        <Link className='option' >
             ABOUT
         </Link>
-        <Link className='option' to='/'>
+        <Link className='option' >
             ROOM
         </Link>
-        <Link className='option' to='/'>
+        <Link className='option' >
             SERVICES
         </Link>
-        <Link className='option' to='/'>
+        <Link className='option'>
             GALLERY
         </Link>
-        <Link className='option' to='/'>
+        <Link className='option'>
             SEE & DO
         </Link>
-        <Link className='option' to='/'>
+        <Link className='option' >
             CONTACT
         </Link>
         <CustomButton>Book A Room</CustomButton>
