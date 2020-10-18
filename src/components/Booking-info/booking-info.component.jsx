@@ -3,7 +3,7 @@ import './booking-info.styles.scss';
 import {Container,Row,Col} from 'react-bootstrap';
 const BookingInfo = () => (
     <Container className="mt-5 mb-5">
-    <form action="/action_page.php">
+    <form>
     <Row>
     <Col>
     <label >Check In</label>
