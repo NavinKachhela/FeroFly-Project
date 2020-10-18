@@ -1,0 +1,48 @@
+@import url(//db.onlinewebfonts.com/c/16efa2896f117dae2debeb23ab4715dd?family=DidoteTextW01-Italic);
+.title{
+    text-align: center;
+    font-family: didot-w01-italic,serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #242323;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    line-height:1.6;
+    
+   
+}
+.mt-custom{
+    margin-top: 5.7%;
+}
+.subtitle{
+    font-weight:400;
+    // font-style:italic;
+    font-size: 20px;
+    font: normal normal normal 20px/1.4em DidoteTextW01-Italic,serif;
+    color: #242323;
+    line-height:normal;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    //  width: 80px;
+   
+    margin-top: -30px;
+    span{
+        background-color: rgb(255, 255, 255);
+    }
+    
+}
+hr{
+    transform-origin: center 0.5px;
+    width:270px;
+    height:5px;
+    color: #242323;  
+    
+  
+}
+.mb-custom{
+    margin-bottom: 5rem;
+}
+.large-container{
+    padding:0 !important;
+}
