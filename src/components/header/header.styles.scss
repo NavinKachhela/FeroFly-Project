@@ -1,6 +1,6 @@
 
 .header {
-    height: 80px;
+  
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@
   
       .option {
         padding: 10px 27px;
-        color:#F5F5F5;
+        color:#F5F5F5!important;
         &:hover{
             color: #A0A09F;
             transition: color 0.4s ease 0s;

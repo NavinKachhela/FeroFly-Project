@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import './homepage.styles.scss';
+import './responsive.scss';
 import Parallax from '../../components/parallax/parallax.component';
 import Heading from '../../components/heading/heading.component';
 import image1 from '../../assets/image1.png';
@@ -12,10 +13,11 @@ import {ContactUs} from '../../components/contact-us/contact-us.component';
 import Footer from '../../components/footer/footer.component';
 import {Beverage} from '../../components/fixed-position/fixed-pos.component';
 
+
 const HomePage = () => (
-    <div>
+
     
-    <Container >
+    <Container fluid>
     <Beverage/>
     <div className='title mt-custom'>
     <h1>
@@ -36,7 +38,7 @@ const HomePage = () => (
             <Division/>
             
             
-</Container>
+
 <Heading heading="GALLERY"/>
 <Gallery/>
 <Container fluid className="large-container">
@@ -44,8 +46,6 @@ const HomePage = () => (
 <ContactUs/>
 <Footer/>
 </Container>
-
-</div>
-
+</Container>
 )
 export default HomePage;
