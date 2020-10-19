@@ -1,6 +1,7 @@
 import React from 'react';
 import './booking-info.styles.scss';
 import {Container,Row,Col} from 'react-bootstrap';
+import CustomButton from '../../components/custom-button/custom-button.component';
 const BookingInfo = () => (
     <Container className="mt-5 mb-5">
     <form>
@@ -29,7 +30,7 @@ const BookingInfo = () => (
     </Col>
     <Col>
     <p></p>
-  <button type="button" className="mt-3">Search</button>
+    <CustomButton>Search</CustomButton>
     </Col>
   </Row>
   

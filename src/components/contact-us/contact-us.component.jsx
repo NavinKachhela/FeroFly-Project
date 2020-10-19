@@ -1,8 +1,9 @@
 import React from 'react';
 import './contact-us.styles.scss';
 import {Container,Row,Col} from 'react-bootstrap';
+import CustomButton from '../custom-button/custom-button.component';
 export const ContactUs = () => (
-    <Container>
+    <Container fluid className="contact-us p-3">
     <form>
 
     <Row>
@@ -21,7 +22,7 @@ export const ContactUs = () => (
     </Row>
     <Row>
     <Col md={12}>
-    <button type="button">Submit</button>
+    <CustomButton>Submit</CustomButton>
     </Col>
     </Row>
     </form>
